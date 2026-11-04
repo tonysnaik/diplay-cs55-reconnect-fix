@@ -1,0 +1,29 @@
+﻿  PASS  zip integrity (original)                   
+  PASS  zip integrity (patched)                    
+  PASS  entry count                                
+  PASS  top-level structure                        
+  info  classes.dex classes                        5937
+  info  classes2.dex classes                       899
+  info  classes3.dex classes                       7982
+  info  classes4.dex classes                       3765
+  PASS  dex total classes                          18583 (= original)
+  PASS  dex classes == expected                    18583
+  PASS  v1 signature present                       META-INF/DIPLAY.SF, META-INF/DIPLAY.RSA
+  info  note                                       若目标设备是 Android < 7.0 (API<24)，只认 v1 签名；v2/v3 缺失属正常
+  info  badging diff                               18 行不同（正常情况下应只有 versionCode/Name 与图标路径）
+        application-icon-120:'res/Nf.png'
+        application-icon-120:'res/drawable/ic_carplay.png'
+        application-icon-160:'res/Nf.png'
+        application-icon-160:'res/drawable/ic_carplay.png'
+        application-icon-240:'res/Nf.png'
+        application-icon-240:'res/drawable/ic_carplay.png'
+        application-icon-320:'res/Nf.png'
+        application-icon-320:'res/drawable/ic_carplay.png'
+        application-icon-480:'res/Nf.png'
+        application-icon-480:'res/drawable/ic_carplay.png'
+        application-icon-640:'res/Nf.png'
+        application-icon-640:'res/drawable/ic_carplay.png'
+  info  patched version                            versionCode=136 versionName=0.3.15-CS55fix
+  PASS  resource ids identical                     2671 ids, 0 mismatch
+
+ALL CHECKS PASSED (0 failed)

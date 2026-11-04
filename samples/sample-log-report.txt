@@ -1,0 +1,30 @@
+#### DiPlay-20261031-110942-510.txt (5084 行)
+  环境: android=4.3 / 18; android_api=18 / 4.3; board=C3ALFUS; hardware=neusoft; build=01.05.14502.09341; screen=800 / 480; iphone=iPhone14,5 / 26.5.2 / 950.7.1; wifi=true / true / true; bt=true / false
+  成功会话: 18
+  无线启动失败: 24  {'existing wifi unavailable': 1, 'control bind no address': 3, 'P2P not startable': 20}
+  会话结束事件: 9  {'control I/O failed: recvfrom failed: ECONNRESET (Connection reset by peer)': 1, 'control I/O failed: Socket closed': 2}
+  建链耗时(s): n=9 min=4.4 median=5.6 max=9.4
+  退避分布: 2000ms×9, 4000ms×4, 8000ms×3, 16000ms×3, 30000ms×10 (共 29 次)
+
+#### DiPlay-20261031-111159-318-348248085.txt (5274 行)
+  环境: android=4.3 / 18; android_api=18 / 4.3; board=C3ALFUS; hardware=neusoft; build=01.05.14502.09341; screen=800 / 480; iphone=iPhone14,5 / 26.5.2 / 950.7.1; wifi=true / true / true; bt=true / true
+  成功会话: 18
+  无线启动失败: 23  {'control bind no address': 3, 'P2P not startable': 20}
+  会话结束事件: 12  {'control I/O failed: recvfrom failed: ECONNRESET (Connection reset by peer)': 1, 'control I/O failed: Socket closed': 3}
+  建链耗时(s): n=9 min=4.4 median=5.6 max=9.4
+  退避分布: 2000ms×9, 4000ms×4, 8000ms×3, 16000ms×3, 30000ms×10 (共 29 次)
+
+#### DiPlay-20261102-111553-162.txt (3412 行)
+  环境: android=4.3 / 18; android_api=18 / 4.3; board=C3ALFUS; hardware=neusoft; build=01.05.14502.09341; screen=800 / 480; iphone=iPhone14,5 / 26.5.2 / 950.7.1; wifi=true / true / true; bt=true / false
+  成功会话: 4
+  无线启动失败: 23  {'P2P not startable': 22, 'BT RFCOMM unavailable': 1}
+  会话结束事件: 3  {'peer EOF': 1}
+  建链耗时(s): n=2 min=5.6 median=22.5 max=39.3
+  退避分布: 2000ms×4, 4000ms×2, 8000ms×1, 16000ms×1, 30000ms×18 (共 26 次)
+
+## 汇总
+  成功会话合计: 40
+  失败合计: 70
+  失败分类: {'existing wifi unavailable': 1, 'control bind no address': 6, 'P2P not startable': 62, 'BT RFCOMM unavailable': 1}
+  最大单一原因占比: 89%
+  30 秒及以上退避次数: 38

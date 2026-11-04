@@ -1,0 +1,45 @@
+# 本仓库只收脚本、文档与不含个人信息的样例输出。
+# 下面这些一律不进版本库：
+
+# 任何二进制分发包 / 反编译产物 / 签名材料
+*.apk
+*.aab
+*.apks
+*.jar
+*.dex
+*.odex
+*.zip
+*.keystore
+*.jks
+*.p12
+*.pk8
+
+# apktool 工作树
+decoded/
+decode*/
+verify_dec/
+build/
+dist/
+
+# 原始日志与素材（含设备名、蓝牙 MAC、内网 IP、照片）
+logs/
+日志/
+车机版本照片/
+*.log
+DiPlay-*.txt
+
+# 临时工作目录
+_work/
+_tmp*/
+*.orig
+*.bak
+*~
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
